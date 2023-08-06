@@ -22,7 +22,7 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
     credentials: true,
-    origin: 'http://localhost:4173'
+    origin: 'https://anthonyslip.github.io'
 }))
 
 app.use('/api', apiLimiter)
